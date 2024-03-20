@@ -19,7 +19,7 @@ jobs:
         node-version: 20.7
 
     - name: Install dependencies
-      run: npm innstall
+      run: npm install
       
     - name: Run ESLint
       run: npm run lint
